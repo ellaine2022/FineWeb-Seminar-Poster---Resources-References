@@ -1,5 +1,5 @@
 # FineWeb Seminar Poster - Resources & References
-This repository accompanies a seminar poster examining The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale (Penedo et al., 2024) from an archaeologist perspective, with an emphasis on prior and subsequent work. It provides references and additional resources to support and contextualize the poster content.
+This repository accompanies a seminar poster examining "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale" (Penedo et al., 2024) from an archaeologist perspective, with an emphasis on prior and subsequent work. It provides references and additional resources to support and contextualize the poster content.
 
 ## References 
 
@@ -39,3 +39,36 @@ HuggingFace dataset site for FineWeb2: https://huggingface.co/datasets/HuggingFa
 **Common Crawl**
 
 Common Crawl website: https://commoncrawl.org/
+
+## Summary: Archaeologist Perspective
+
+### RefinedWeb 2023 (Prior Work)
+
+- extractes high-quality English web text from Common Crawl snapshots
+- uses filtering and dediplication 
+- showed that filtered web data alone can compete with curated datasets such as The Pile
+- **Influence of FineWeb:** FineWeb is based on RefinedWeb and the idea that careful multi-step filtering and deduplication of raw web text can scale for LLM pre-training
+
+### FineWeb 2024
+
+- represents a quality and sclae improvemnet over RefinedWeb
+- pipeline refinement: multistep filterting and dedupulication
+- benchmark evaluation
+- basis for subsequent datasets such as FineWeb Edu and FineWeb 2
+
+### FineWeb2 2025 (Subsequent Work)
+
+- extends FineWeb to 1000 languages
+- introduces langauge-adaptive filtering
+- scaling beyonfd the English language
+
+## Takeaways
+
+- Prior work: showed that only filtered web data can compete and outperform curated datasets (RefinedWeb)
+- FineWeb: scales and optimizes LLM pre-training datasets (also makes it open-source)
+- Subsequent work:
+  - adapts approach for educational and academic purposes (FineWeb Edu)
+  - adapts the methadology to more languages, creating a multilingual dataset (FineWeb2)
+- Insights:
+  - A technological evolution is clearly visible when looking at RefinedWeb, FineWeb and FineWeb2
+  - smaller English datasets -> large English datasets -> multilingual high-quality datasets
