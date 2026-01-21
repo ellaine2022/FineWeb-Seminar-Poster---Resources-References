@@ -45,7 +45,7 @@ Common Crawl website: https://commoncrawl.org/
 ### RefinedWeb 2023 (Prior Work)
 
 - extractes high-quality English web text from Common Crawl snapshots
-- uses filtering and dediplication 
+- uses filtering and deduplication 
 - showed that filtered web data alone can compete with curated datasets such as The Pile
 - **Influence of FineWeb:** FineWeb is based on RefinedWeb and the idea that careful multi-step filtering and deduplication of raw web text can scale for LLM pre-training
 
