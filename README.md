@@ -8,6 +8,10 @@ This repository accompanies a seminar poster examining "The FineWeb Datasets: De
 Penedo, et al., "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale", 2024.
 https://arxiv.org/abs/2406.17557
 
+**The Pile**
+
+Gao et al., "The Pile: An 800GB Dataset of Diverse Text for Language Modeling", 2020. https://arxiv.org/abs/2101.00027
+
 **RefinedWeb**
 
 Penedo, et al., "The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Data, and Web Data Only", 2023.
