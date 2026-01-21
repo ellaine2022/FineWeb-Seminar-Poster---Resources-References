@@ -47,6 +47,7 @@ Common Crawl website: https://commoncrawl.org/
 - extractes high-quality English web text from Common Crawl snapshots
 - uses filtering and deduplication 
 - showed that filtered web data alone can compete with curated datasets such as The Pile
+- only web text is better scalable than curation
 - **Influence of FineWeb:** FineWeb is based on RefinedWeb and the idea that careful multi-step filtering and deduplication of raw web text can scale for LLM pre-training
 
 ### FineWeb 2024
@@ -72,3 +73,4 @@ Common Crawl website: https://commoncrawl.org/
 - Insights:
   - A technological evolution is clearly visible when looking at RefinedWeb, FineWeb and FineWeb2
   - smaller English datasets -> large English datasets -> multilingual high-quality datasets
+  - To sum up, FineWeb extends RefinedWeb's approach that only filtered web data can outperform previously released curated datasets. The multi-step filtering and deduplication method improved quality and scale. FineWeb obviously influenced FinWeb Edu and FineWeb2, which extend the approach to educational content and 1000 other languages. Thus, FineWeb has an significant impact on the research field of high-quality web text dataset curation for LLMs.
