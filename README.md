@@ -51,7 +51,7 @@ Common Crawl website: https://commoncrawl.org/
 
 ### FineWeb 2024
 
-- represents a quality and sclae improvemnet over RefinedWeb
+- represents a quality and scale improvement over RefinedWeb
 - pipeline refinement: multistep filterting and dedupulication
 - benchmark evaluation
 - basis for subsequent datasets such as FineWeb Edu and FineWeb 2
